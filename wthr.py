@@ -9,7 +9,7 @@ root = Tk()
 def get_weather():
     city = str(cityField.get())
     countrycode = str(countryField.get())
-    key = '84545b972c53550df96ee3361916d883'
+    key = ''
     url = 'https://api.openweathermap.org/data/3.0/onecall'
     urlg = 'http://api.openweathermap.org/geo/1.0/direct'
     parms = {'q': [city, countrycode], 'appid': key}
